@@ -43,10 +43,42 @@ The architecture of a ConvNet is analogous to that of the connectivity pattern o
 <b>Step 9:</b> Save the Model.
 
 
+<h1>Usage:</h1>
+
+<h2>Model File:</h2>
+
+Download the model (corona.h5) form <a href="https://drive.google.com/drive/folders/1EWWdI_Sb9OZVoi3magXk4R20GYsf2I8W?usp=sharing">here</a> and keep it in same folder where corona.py present.
+
 <h2>Running Script:</h2>
 
 Use Command: 
 
     python corona.py --image <image path>
+
+<h1>Examples:</h2>
+
+    python corona.py --image test_set/patient1.png
+    
+<img src="output/Result1.png">
+
+    python corona.py --image test_set/patient2.jpg
+    
+<img src="output/Result2.png">
+
+<h1>Django Project for Detecting COVID-19 and Pneumonia through Human chest X-Ray Images:</h1>
+
+<h2>ScreenShots:</h2>
+
+<img src="Screenshots/Covid-19 Detection -1.png">
+
+<img src="Screenshots/Covid-19 Detection -2.png">
+
+<img src="Screenshots/Covid-19 Detection -3.png">
+
+<img src="Screenshots/Covid-19 Detection -4.png">
+
+<h2>Description Video:</h2>
+
+[![Watch the video](https://img.youtube.com/vi/Q8OR04wBJJs/0.jpg)](https://youtu.be/Q8OR04wBJJs)
 
 
